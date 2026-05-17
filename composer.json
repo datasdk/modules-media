@@ -1,0 +1,37 @@
+{
+    "name": "nwidart/media",
+    "description": "Media management module",
+    "type": "library",
+    "require": {
+        "php": ">=8.1",
+        "laravel/framework": "^10.0",
+        "spatie/laravel-medialibrary": "^11.0",
+        "intervention/image": "^3.11"
+    },
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Media\\": "",
+            "Modules\\Media\\Database\\Factories\\": "database/factories/",
+            "Modules\\Media\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Media\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
