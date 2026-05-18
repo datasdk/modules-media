@@ -1,7 +1,11 @@
 {
-    "name": "nwidart/media",
+    
+    "name": "datasdk/media-module",
+    "type": "laravel-module",
+    "license": "proprietary",
+
     "description": "Media management module",
-    "type": "library",
+
     "require": {
         "php": ">=8.1",
         "laravel/framework": "^10.0",
@@ -10,8 +14,8 @@
     },
     "authors": [
         {
-            "name": "Nicolas Widart",
-            "email": "n.widart@gmail.com"
+            "name": "Kasper L. Kristiansen",
+            "email": "info@datas.dk"
         }
     ],
     "extra": {
